@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/yuanyuanmiao/.nvm/versions/node/v11.4.0/bin/node /Users/yuanyuanmiao/.nvm/versions/node/v11.4.0/bin/yarn add koa koa-static bootstrap juqury
+
+PATH: 
+  /Users/yuanyuanmiao/.nvm/versions/node/v11.4.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  11.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/juqury: Not found
+      at Request.params.callback [as _callback] (/Users/yuanyuanmiao/.nvm/versions/node/v11.4.0/lib/node_modules/yarn/lib/cli.js:66255:18)
+      at Request.self.callback (/Users/yuanyuanmiao/.nvm/versions/node/v11.4.0/lib/node_modules/yarn/lib/cli.js:129397:22)
+      at Request.emit (events.js:189:13)
+      at Request.<anonymous> (/Users/yuanyuanmiao/.nvm/versions/node/v11.4.0/lib/node_modules/yarn/lib/cli.js:130369:10)
+      at Request.emit (events.js:189:13)
+      at IncomingMessage.<anonymous> (/Users/yuanyuanmiao/.nvm/versions/node/v11.4.0/lib/node_modules/yarn/lib/cli.js:130291:12)
+      at Object.onceWrapper (events.js:277:13)
+      at IncomingMessage.emit (events.js:194:15)
+      at endReadableNT (_stream_readable.js:1107:12)
+      at process.internalTickCallback (internal/process/next_tick.js:72:19)
+
+npm manifest: 
+  {
+    "name": "website",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
